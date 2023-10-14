@@ -1,0 +1,44 @@
+** ComfyUI start up time: 2023-09-20 03:48:13.977976
+
+Prestartup times for custom nodes:
+   0.4 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/catis-manager
+
+Total VRAM 15102 MB, total RAM 12983 MB
+xformers version: 0.0.21
+Set vram state to: NORMAL_VRAM
+Device: cuda:0 Tesla T4 : cudaMallocAsync
+VAE dtype: torch.float32
+Using xformers cross attention
+### Loading: ComfyUI-Manager (V0.26.2)
+### ComfyUI Revision: 1445 [0966d3ce]
+### Loading: ComfyUI-Impact-Pack (V4.6.5)
+### Loading: ComfyUI-Inspire-Pack (V0.12.2)
+[92m[tinyterraNodes] [32mLoaded[0m
+[92m[smZNodes] [0;31mcompel is not installed. Attempting to install...[0m
+[92m[smZNodes] compel Installed![0m
+[92m[smZNodes] [0;31mlark is not installed. Attempting to install...[0m
+[92m[smZNodes] lark Installed![0m
+Using xformers cross attention
+
+Import times for custom nodes:
+   0.3 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/wildcards.py
+   0.3 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/clip_text_encoder_a1111.py
+   0.9 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/braintacles-comfyui-nodes
+   1.0 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/sdxl_prompt_styler
+   1.2 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/comfy_clip_blip_node
+   1.4 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI_ADV_CLIP_emb
+   1.5 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI-Embedding_Picker
+   1.7 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI-WD14-Tagger
+   2.2 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/OneButtonPrompt
+   3.0 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI-Inspire-Pack
+   4.4 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/catis-manager
+   4.5 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI_tinyterraNodes
+   6.2 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI_UltimateSDUpscale
+   8.7 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI-Impact-Pack
+  11.4 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/Derfuu_ComfyUI_ModdedNodes
+  23.7 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI_Custom_Nodes_AlekPet
+  32.4 seconds: /content/drive/MyDrive/WANDOJI/_Education_Cotis/custom_nodes/ComfyUI_smZNodes
+
+Starting server
+
+To see the GUI go to: http://127.0.0.1:8188
