@@ -9,13 +9,13 @@ a111:
     configs: models/Stable-diffusion
     vae: vae-pack
     loras: |
-         models/Lora
+         lora-pack
          models/LyCORIS
     upscale_models: |
                   upscale
                   models/RealESRGAN
                   models/SwinIR
-    embeddings: embeddings
+    embeddings: embedding
     hypernetworks: models/hypernetworks
     controlnet: models/ControlNet
 
