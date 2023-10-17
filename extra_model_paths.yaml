@@ -7,12 +7,12 @@ a111:
 
     checkpoints: model-magicrealistic
     configs: models/Stable-diffusion
-    vae: models/VAE
+    vae: vae-pack
     loras: |
          models/Lora
          models/LyCORIS
     upscale_models: |
-                  upscaler-model
+                  upscale
                   models/RealESRGAN
                   models/SwinIR
     embeddings: embeddings
