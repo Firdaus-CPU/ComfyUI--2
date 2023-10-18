@@ -5,7 +5,9 @@
 a111:
     base_path: /kaggle/input/
 
-    checkpoints: model-magicrealistic
+    checkpoints: |
+                model-magicrealistic
+                sd-model
     configs: models/Stable-diffusion
     vae: vae-pack
     loras: |
