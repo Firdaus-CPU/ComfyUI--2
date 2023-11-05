@@ -6,8 +6,8 @@ a111:
     base_path: /kaggle/input/
 
     checkpoints: |
-                XLmodel
-                ModelSD
+                modelsd
+                xlmodel
     configs: models/Stable-diffusion
     vae: vaePack
     loras: |
