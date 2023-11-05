@@ -9,15 +9,15 @@ a111:
                 modelsd
                 xlmodel
     configs: models/Stable-diffusion
-    vae: vaePack
+    vae: vaepack
     loras: |
-         loraPack
+         lorapack
          models/LyCORIS
     upscale_models: |
-                  upscale2
+                  upscalerpack
                   models/RealESRGAN
                   models/SwinIR
-    embeddings: embedding
+    embeddings: embedingpack
     hypernetworks: models/hypernetworks
     controlnet: models/ControlNet
 
