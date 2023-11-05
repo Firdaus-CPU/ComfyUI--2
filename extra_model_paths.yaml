@@ -6,15 +6,15 @@ a111:
     base_path: /kaggle/input/
 
     checkpoints: |
-                model-magicrealistic
-                sd-model
+                XLmodel
+                ModelSD
     configs: models/Stable-diffusion
-    vae: vae-pack
+    vae: vaePack
     loras: |
-         lora-pack
+         loraPack
          models/LyCORIS
     upscale_models: |
-                  upscale
+                  upscale2
                   models/RealESRGAN
                   models/SwinIR
     embeddings: embedding
